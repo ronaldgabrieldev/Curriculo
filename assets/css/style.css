@@ -1,0 +1,29 @@
+@import "home.css";
+@import "utils.css";
+@import "responsive.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+/* Estilos para links na seção Contato & Links Profissionais */
+.h-contato a {
+    color: inherit; /* mantém a cor do texto e evita o roxo de links visitados */
+    text-decoration: none; /* remove sublinhado */
+    transition: color .15s ease;
+}
+.h-contato a:visited {
+    color: inherit; /* garante que links visitados não fiquem roxos */
+}
+.h-contato a:hover,
+.h-contato a:focus {
+    text-decoration: underline;
+    color: #0a66c2; /* cor sutil no hover (opcional) */
+}
