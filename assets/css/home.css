@@ -57,6 +57,32 @@
     text-align: justify;
     font-size: 18px;
 }  
+/* Resumo Profissional */
+.container .h-resumo {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 50px;
+}
+.container .h-resumo .h-title-resumo {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #2563eb;
+    margin-bottom: 25px;
+}
+.container .h-resumo .h-title-resumo h2{
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:26px;
+    text-transform:uppercase;
+    color: #000000;
+}
+.container .h-resumo p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+}
 /* Experiência */
 .container .h-experiencia .h-title-experiencia {
     width: 100%;

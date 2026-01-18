@@ -195,3 +195,74 @@
 
 
 }
+/* Estilos para impressão (PDF) */
+@media print {
+    body {
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 10px;
+    }
+    .container .h-name {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .container .h-name h1 {
+        font-size: 24px;
+    }
+    .container .h-name h2 {
+        font-size: 18px;
+    }
+    .container .h-sobre {
+        margin-bottom: 20px;
+    }
+    .container .h-resumo {
+        margin-bottom: 20px;
+    }
+    .container .h-resumo .h-title-resumo h2 {
+        font-size: 18px;
+    }
+    .container .h-resumo p {
+        font-size: 14px;
+    }
+    .container .h-experiencia .h-title-experiencia h2 {
+        font-size: 18px;
+    }
+    .container .h-experiencia .h-itens .item {
+        min-height: auto;
+        margin-bottom: 15px;
+    }
+    .container .h-experiencia .h-itens .item .work h2 {
+        font-size: 16px;
+    }
+    .container .h-experiencia .h-itens .item .description h2 {
+        font-size: 16px;
+    }
+    .container .h-experiencia .h-itens .item .description p {
+        font-size: 14px;
+    }
+    .container .h-educacao .h-title-educacao h2 {
+        font-size: 18px;
+    }
+    .container .h-educacao .item .title h2 {
+        font-size: 16px;
+    }
+    .container .h-educacao .item p {
+        font-size: 14px;
+    }
+    .container .h-habilidades .h-title-habilidades h2 {
+        font-size: 18px;
+    }
+    .container .h-habilidades .competencias-list li {
+        font-size: 14px;
+    }
+    .container .h-habilidades .competencias-subsection h3 {
+        font-size: 16px;
+    }
+    footer {
+        display: none;
+    }
+}
